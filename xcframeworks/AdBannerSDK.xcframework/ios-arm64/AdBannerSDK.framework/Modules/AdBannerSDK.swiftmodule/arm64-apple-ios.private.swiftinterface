@@ -1,0 +1,148 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios18.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdBannerSDK
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import Combine
+import CoreGraphics
+import Foundation
+import Security
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AdBannerEnvironment {
+  case prod
+  case uat
+  public static func == (a: AdBannerSDK.AdBannerEnvironment, b: AdBannerSDK.AdBannerEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class AdBannerComponent : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency final public func setConfig(_ configuration: AdBannerSDK.AdBannerConfig)
+  @_Concurrency.MainActor @preconcurrency final public func loadData()
+  @_Concurrency.MainActor @preconcurrency final public func preparePayment()
+  @objc deinit
+}
+extension AdBannerSDK.AdBannerComponent : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+final public class AdBannerBuilder {
+  public init(environment: AdBannerSDK.AdBannerEnvironment, delegate: any AdBannerSDK.AdBannerDelegate)
+  @discardableResult
+  final public func setSourceViewController(_ sourceViewController: UIKit.UIViewController) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setClientId(_ clientId: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setPreviewTemplateName(_ templateName: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setContentId(_ content: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setVersion(_ version: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setLocation(_ location: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setOpenWith(_ openWith: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setItems(_ items: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setAddresses(_ addresses: Swift.String) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setPrepareHandler(_ handler: @escaping () -> Swift.Void) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setStatusHandler(_ handler: @escaping (Swift.String) -> Swift.Void) -> AdBannerSDK.AdBannerBuilder
+  @discardableResult
+  final public func setPrepareButtonEnabled(_ enabled: Swift.Bool) -> AdBannerSDK.AdBannerBuilder
+  final public func build() -> AdBannerSDK.AdBannerConfig
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SDKFontLoader {
+  public static func registerFonts()
+  @objc deinit
+}
+public enum PYWDisplayPreference {
+  case normal
+  case grid
+  case list
+  public static func == (a: AdBannerSDK.PYWDisplayPreference, b: AdBannerSDK.PYWDisplayPreference) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol AdBannerDelegate : AnyObject {
+  func onPywSuccess(pywId: Swift.String?, pywConfirmation: AdBannerSDK.PYWConfirmation?)
+  func onPywFailure(pywId: Swift.String?)
+  func onPywCanceled()
+  func onPywHold(pywId: Swift.String?)
+  func onPywInvalidSession()
+  func onApplyGetCardFailure()
+  func onApplyGetCardSuccess()
+}
+extension AdBannerSDK.AdBannerDelegate {
+  public func onPywSuccess(pywId: Swift.String?, pywConfirmation: AdBannerSDK.PYWConfirmation?)
+  public func onPywFailure(pywId: Swift.String?)
+  public func onPywCanceled()
+  public func onPywHold(pywId: Swift.String?)
+  public func onPywInvalidSession()
+  public func onApplyGetCardFailure()
+  public func onApplyGetCardSuccess()
+}
+public struct PYWConfirmation : Swift.Codable {
+  public let authCode: Swift.String
+  public let orderDate: Swift.String?
+  public let paymentStatus: Swift.String?
+  public let paymentTotal: Swift.String?
+  public let paymentDetails: [AdBannerSDK.PYWConfirmation.PaymentDetail]?
+  public let additionalInfo: AdBannerSDK.PYWConfirmation.PaymentAdditionalInfo?
+  public let responseCode: Swift.String?
+  public let transactionId: Swift.String?
+  public let responseMessage: Swift.String?
+  public struct PaymentDetail : Swift.Codable {
+    public let id: Swift.String?
+    public let type: Swift.String?
+    public let amount: Swift.String?
+    public let status: Swift.String?
+    public let currency: Swift.String?
+    public let cardLastFour: Swift.String?
+    public let cardType: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct PaymentAdditionalInfo : Swift.Codable {
+    public let address: AdBannerSDK.PYWConfirmation.PaymentAdditionalInfo.PaymentAddress
+    public struct PaymentAddress : Swift.Codable {
+      public let addressLine1: Swift.String?
+      public let addressLine2: Swift.String?
+      public let state: Swift.String?
+      public let city: Swift.String?
+      public let postalCode: Swift.String?
+      public let shcAssociateInd: Swift.String?
+      public let pinNumber: Swift.String?
+      public let zipCodeExtension: Swift.String?
+      public func encode(to encoder: any Swift.Encoder) throws
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AdBannerConfig {
+}
+extension AdBannerSDK.AdBannerConfig : Swift.Equatable, Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: AdBannerSDK.AdBannerConfig, rhs: AdBannerSDK.AdBannerConfig) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension AdBannerSDK.AdBannerEnvironment : Swift.Equatable {}
+extension AdBannerSDK.AdBannerEnvironment : Swift.Hashable {}
+extension AdBannerSDK.PYWDisplayPreference : Swift.Equatable {}
+extension AdBannerSDK.PYWDisplayPreference : Swift.Hashable {}
