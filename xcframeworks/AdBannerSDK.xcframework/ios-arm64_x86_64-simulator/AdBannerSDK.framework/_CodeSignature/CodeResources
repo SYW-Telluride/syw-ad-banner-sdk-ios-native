@@ -6,51 +6,51 @@
 	<dict>
 		<key>ContentPopupVC.nib</key>
 		<data>
-		LRxZ0Lf/1anm9NlOU4pEyid3ZgI=
+		QL4AftNk/7mOhjwns3/2a7xV8Ec=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cctGNo409FsQGGzRXKUAzb6Hqzc=
+		KJlzsU/VoUAiRuOhAE+iaufvabY=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ho37FnplRe63OJjZ3VYkb1QThaw=
+		MYUhuAU3QmmBBHI5UL01QxqS6CY=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		b5MzWgvU2q/po9Yb0Vw3g1FtqwE=
+		TzqXKhxruWVei3mFyshsYdzBWVM=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Wav8C7SRkV1ulpapeHSR+3XBFZ8=
+		3x0/w1eat0Xihcil/EYodsWr144=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		b5MzWgvU2q/po9Yb0Vw3g1FtqwE=
+		TzqXKhxruWVei3mFyshsYdzBWVM=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k70prP0vpALCBoSX9iYvnyyzgzk=
+		y5jXTJnEpYhK0/YSYMjW2i8V4DE=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ho37FnplRe63OJjZ3VYkb1QThaw=
+		MYUhuAU3QmmBBHI5UL01QxqS6CY=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MdRDDTNN3j1E+Ru9zqy1/Ak3jUE=
+		WrtlYg5lBP0ulA8ZOchqKyQ6Nww=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qMt0fE2aTIpKfaVdCfgWXvdzPsE=
+		sLiLayfy/Uj6dDM+BSy6Q3rYE08=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MdRDDTNN3j1E+Ru9zqy1/Ak3jUE=
+		WrtlYg5lBP0ulA8ZOchqKyQ6Nww=
 		</data>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jQpRzq3v1mHJKsUJtggesIRsRKo=
+		JwZfQWpOE2wwFWz/jG1cRrdWK04=
 		</data>
 		<key>Montserrat-Bold.ttf</key>
 		<data>
@@ -83,77 +83,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIudiaZBhQMDfnzgAJRjUh7iJ6G5J9De8//pukJSVz0=
+			v8P312OcNPuBZyGpy9aPaxNxLuwpEq3uv5EX941E2os=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n9P4SBsB+1A0qcOquyfTGQXEBRdKzAlEY41pxumoL8o=
+			23bsHZcilpUnu3FsIi/dhEkwWnA+aGQRdPH895rS8JU=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKQ0N1J3R2snDMvj655JFAdBQ1ONAUGw4AE8YDpa/dE=
+			I6S2yiS1b3uqqaPi0CFkvFrKG+kUqm8yROSSBSHDN3o=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p9H4hdyyg84EcDdOlMJ56axb5uHsSer7Sk7biD8RTgg=
+			oe0FO8ZPC6FYTFVhhxcgEVfS7WAVm0ZrSUmN2By9LGs=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKQ0N1J3R2snDMvj655JFAdBQ1ONAUGw4AE8YDpa/dE=
+			I6S2yiS1b3uqqaPi0CFkvFrKG+kUqm8yROSSBSHDN3o=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5g5PCoMUwX9xrKlUPPK8PycISgsmJMJKYAhRV+GsegA=
+			27bC7ghaH0Wid/p51Tfsi5a0hVrBoKAJc9tQMpyxaR4=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n9P4SBsB+1A0qcOquyfTGQXEBRdKzAlEY41pxumoL8o=
+			23bsHZcilpUnu3FsIi/dhEkwWnA+aGQRdPH895rS8JU=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fat4/x6SvgooFAMmzCH8tCKkQechUG1IRtfnbpEamFw=
+			SPsGhyOUMDEPZd+LacO88X0bedgzc2IKl/D8SZbs9oQ=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Kd/KpVI8anse9l68zq+qvGf7Kymk2HiQlAWnvVqI/s=
+			8lE8+2ni2cgFlro+Whk5gra7hRiFk/UV452LfDK451M=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fat4/x6SvgooFAMmzCH8tCKkQechUG1IRtfnbpEamFw=
+			SPsGhyOUMDEPZd+LacO88X0bedgzc2IKl/D8SZbs9oQ=
 			</data>
 		</dict>
 		<key>Modules/AdBannerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W67v++KHKTgDegDZaH/0hi2VW3V394KHBrFBsrCvMm0=
+			Kco8wF19i+UvwX9xH6HR7Xhh1cHruPP/oZOjSAbPu2Q=
 			</data>
 		</dict>
 		<key>Montserrat-Bold.ttf</key>
